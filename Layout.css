@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+body .layout-container .outlet-containter {
+  height: 140vh;
+  padding-top: 60px;
+}
+
+body .l-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 13vh;
+  z-index: 100;
+}
+body .l-header .title {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  font-size: 18px;
+}
+body .l-header .title p {
+  font-size: 14px;
+  margin-left: 1rem;
+}
+body .l-header .navBar-header {
+  margin-right: 3rem;
+  font-size: 15px;
+  display: flex;
+}
+body .l-header .navBar-header .nav-header {
+  font-weight: bolder;
+  padding: 0 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+body .l-main {
+  margin: 2rem 7rem;
+  height: 100vh;
+  background-color: blue;
+  width: 80%;
+}
+body .l-main .main-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+body .l-main .main-info .main-picture {
+  flex: 1;
+  border-radius: 100%;
+  border: 2px solid black;
+  width: auto;
+  height: 50%;
+}
+body .l-main .main-info .main-picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+body .l-main .main-info .main-aboutme {
+  flex: 1.5;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .l-main .main-info .main-aboutme .navBar-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main {
+  font-weight: bolder;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  border-radius: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main[data-index="0"] {
+  background-color: #c7a158;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main[data-index="1"] {
+  background-color: #fff4e9;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main[data-index="2"] {
+  background-color: #b9a88b;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main[data-index="3"] {
+  background-color: #dad1cc;
+}
+body .l-main .main-info .main-aboutme .navBar-main .nav-main:hover {
+  background-color: white;
+}
+body .l-footer {
+  position: absolute;
+  left: 0;
+  height: 0vh;
+  width: 100%;
+}
+body .l-footer .navBar-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .l-footer .navBar-footer .nav-footer .social-icons i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=Layout.css.map */
